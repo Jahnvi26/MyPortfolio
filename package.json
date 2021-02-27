@@ -2,11 +2,34 @@
   "name": "portfolio2",
   "version": "1.0.0",
   "description": "week_1",
-  "main": "app.js",
+  "main": "index.js",
+  "engines": {
+    "node": "v15.6.0",
+    "npm": "7.4.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jquery": "^3.5.1",
+    "morgan": "~1.9.1",
+    "popper.js": "^1.16.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "author": "Jahnvi Sharma",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jahnvi26/MyPortfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jahnvi26/MyPortfolio/issues"
+  },
+  "homepage": "https://github.com/Jahnvi26/MyPortfolio#readme"
 }
