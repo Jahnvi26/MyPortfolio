@@ -31,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/Jahnvi26/MyPortfolio/issues"
   },
-  "homepage": "https://github.com/Jahnvi26/MyPortfolio#readme"
+  "homepage": "https://github.com/Jahnvi26/MyPortfolio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
